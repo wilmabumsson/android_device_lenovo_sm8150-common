@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.lenovo_msmnile"
+#define LOG_TAG "lineage.biometrics.fingerprint.inscreen@1.0-service.lenovo_msmnile"
 
 #include "FingerprintInscreen.h"
 
@@ -143,15 +143,15 @@ Return<void> FingerprintInscreen::setCallback(const sp<IFingerprintInscreenCallb
 }
 
 Return<int32_t> FingerprintInscreen::getPositionX() {
-    return 444;
+    return 450;
 }
 
 Return<int32_t> FingerprintInscreen::getPositionY() {
-    return 1605;
+    return 1916;
 }
 
 Return<int32_t> FingerprintInscreen::getSize() {
-    return 192;
+    return 178;
 }
 
 }  // namespace implementation
