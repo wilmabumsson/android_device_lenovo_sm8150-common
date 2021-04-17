@@ -19,3 +19,6 @@ allow hal_fod_lenovo_msmnile sysfs_graphics:file rw_file_perms;
 
 #Allow access to goodix device
 allow hal_fod_lenovo_msmnile gx_fpd_device:chr_file rw_file_perms;
+
+#Allow FoD In-Kernel-Dimming
+allow hal_fod_lenovo_msmnile sysfs:file { open write getattr };
