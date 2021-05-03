@@ -117,7 +117,7 @@ PRODUCT_PRODUCT_VNDK_VERSION := current
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH_COMMON)/config.fs
 
 # FOD
-TARGET_SURFACEFLINGER_FOD_LIB := //$(DEVICE_PATH):libfod_extension.lenovo_msmnile
+TARGET_SURFACEFLINGER_FOD_LIB := //$(DEVICE_PATH_COMMON):libfod_extension.lenovo_msmnile
 TARGET_USES_FOD_ZPOS := true
 
 # HIDL
