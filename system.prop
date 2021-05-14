@@ -9,7 +9,7 @@ persist.vendor.btstack.enable.splita2dp=true
 vendor.bluetooth.soc=cherokee 
 
 # Camera
-vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.zui.camera,org.lineageos.snap,com.android.camera,org.pixelexperience.faceunlock
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.zui.camera,org.lineageos.snap,com.android.camera
 
 # CNE and DPM
 persist.vendor.cne.feature=1
