@@ -209,6 +209,10 @@
             <instance>default</instance>
         </interface>
         <fqname>@2.0::ISensors/default</fqname>
+        <interface>
+            <name>ISensorManager</name>
+            <instance>default</instance>
+        </interface>       
     </hal>
     <hal format="hidl">
         <name>android.hardware.tetheroffload.config</name>
