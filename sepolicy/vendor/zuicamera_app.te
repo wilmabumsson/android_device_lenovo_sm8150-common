@@ -1,5 +1,6 @@
 type zuicamera_app, domain;
-app_domain(zuicamera_app)
+typeattribute zuicamera_app coredomain;
+app_domain(zuicamera_app);
 
 allow zuicamera_app app_api_service:service_manager find;
 allow zuicamera_app audioserver_service:service_manager find;
@@ -17,5 +18,6 @@ allow zuicamera_app app_data_file:file rwx_file_perms;
 allow zuicamera_app rs_exec:file rx_file_perms;
 allow zuicamera_app vendor_camera_data_file:dir create_dir_perms;
 allow zuicamera_app vendor_camera_data_file:file create_file_perms;
-allow zuicamera_app vendor_camera_file:dir r_dir_perms;
-allow zuicamera_app vendor_camera_file:file r_file_perms;
+allow zuicamera_app system_camera_file:dir r_dir_perms;
+allow zuicamera_app system_camera_file:file r_file_perms;
+

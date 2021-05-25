@@ -1,1 +1,1 @@
-user=_app seinfo=platform name=com.zui.camera domain=zuicamera_app type=app_data_file
+user=_app isPrivApp=true name=com.zui.camera domain=zuicamera_app type=privapp_data_file levelFrom=user
